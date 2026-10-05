@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kończę roczek! | Urodziny Felka</title>
+  <meta name="description" content="Świętuj ze mną — Kończę roczek! 5 grudnia 2026 12:30, Kawiarnia Czułosfera." />
+  <meta property="og:title" content="Kończę roczek!" />
+  <meta property="og:description" content="Świętuj ze mną — 5 grudnia 2026 12:30, Kawiarnia Czułosfera." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="invitation-page">
+    <article class="invitation-card" aria-label="Zaproszenie na pierwsze urodziny Felka">
+      <img class="corner-leaf corner-leaf-left" src="assets/leaf-top-left.webp" alt="" />
+      <img class="corner-leaf corner-leaf-right" src="assets/leaf-top-right.webp" alt="" />
+      <img class="side-vine side-vine-left" src="assets/vine-left.webp" alt="" />
+      <img class="side-vine side-vine-right" src="assets/vine-right.webp" alt="" />
+
+      <header class="invitation-copy">
+        <p class="invitation-kicker">Świętuj ze mną</p>
+        <h1 class="invitation-title">
+          <span>Kończę</span>
+          <strong>roczek!</strong>
+        </h1>
+        <p class="invitation-date">5 grudnia 2026 12:30</p>
+        <address class="invitation-address">
+          Kawiarnia Czułosfera
+          <a class="invitation-map-link" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x46fd9fd18a53c365:0x46ea23d891b42fc4" target="_blank" rel="noopener noreferrer" aria-label="Otwórz mapę dojazdu do Kawiarni Czułosfera">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+          </a>
+        </address>
+
+        <section class="party-timeline" aria-labelledby="timeline-title">
+          <h2 id="timeline-title">Trochę o mnie</h2>
+          <ol>
+            <li><div class="timeline-card"><time>12:30</time><p class="timeline-activity">Guests arrive</p><p class="timeline-detail">Hellos, hugs and party hats at the door.</p></div></li>
+            <li><div class="timeline-card"><time>13:00</time><p class="timeline-activity">Birthday lunch</p><p class="timeline-detail">A little feast for our little wild one.</p></div></li>
+            <li><div class="timeline-card"><time>14:00</time><p class="timeline-activity">Wild games</p><p class="timeline-detail">Safari games and giggles for all ages.</p></div></li>
+            <li><div class="timeline-card"><time>15:00</time><p class="timeline-activity">Cake &amp; candles</p><p class="timeline-detail">One candle, one big wish.</p></div></li>
+            <li><div class="timeline-card"><time>15:30</time><p class="timeline-activity">Photos &amp; presents</p><p class="timeline-detail">Snapshots with the birthday boy.</p></div></li>
+            <li><div class="timeline-card"><time>16:30</time><p class="timeline-activity">Little explorers head home</p><p class="timeline-detail">Goodie bags and sleepy smiles.</p></div></li>
+          </ol>
+        </section>
+
+        <section class="party-gallery" aria-label="Galeria zdjęć Felka">
+          <div class="gallery-grid">
+            <button class="gallery-thumbnail" type="button" aria-label="Open felek's gallery photo placeholder one"><img src="assets/safari-party.webp" alt="" style="object-position: 20% center" /></button>
+            <button class="gallery-thumbnail" type="button" aria-label="Open felek's gallery photo placeholder two"><img src="assets/safari-party.webp" alt="" style="object-position: 38% center" /></button>
+            <button class="gallery-thumbnail" type="button" aria-label="Open felek's gallery photo placeholder three"><img src="assets/safari-party.webp" alt="" style="object-position: 53% center" /></button>
+            <button class="gallery-thumbnail" type="button" aria-label="Open felek's gallery photo placeholder four"><img src="assets/safari-party.webp" alt="" style="object-position: 67% center" /></button>
+            <button class="gallery-thumbnail" type="button" aria-label="Open felek's gallery photo placeholder five"><img src="assets/safari-party.webp" alt="" style="object-position: 82% center" /></button>
+            <button class="gallery-thumbnail" type="button" aria-label="Open felek's gallery photo placeholder six"><img src="assets/safari-party.webp" alt="" style="object-position: center center" /></button>
+          </div>
+        </section>
+
+        <p class="invitation-rsvp-note">Proszę o potwierdzenie przybycia do dnia 10 listopada</p>
+      </header>
+
+      <img class="safari-party" src="assets/safari-party.webp" alt="Watercolor monkey, elephant, giraffe, lion, and zebra riding in a safari jeep" />
+    </article>
+
+    <div class="gallery-lightbox-backdrop" hidden>
+      <div class="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Expanded gallery photo">
+        <img class="gallery-lightbox-image" src="assets/safari-party.webp" alt="Felek's gallery photo" />
+        <button class="lightbox-close" type="button" aria-label="Close photo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <button class="lightbox-arrow lightbox-arrow-left" type="button" aria-label="Previous photo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="lightbox-arrow lightbox-arrow-right" type="button" aria-label="Next photo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+        <p class="lightbox-count" aria-live="polite">1 / 6</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var thumbs = Array.prototype.slice.call(document.querySelectorAll(".gallery-thumbnail"));
+      var backdrop = document.querySelector(".gallery-lightbox-backdrop");
+      var image = backdrop.querySelector(".gallery-lightbox-image");
+      var count = backdrop.querySelector(".lightbox-count");
+      var current = null;
+      function render() {
+        var t = thumbs[current].querySelector("img");
+        image.src = t.src;
+        image.alt = thumbs[current].getAttribute("aria-label").replace(/^Open /, "");
+        count.textContent = (current + 1) + " / " + thumbs.length;
+      }
+      function open(i) { current = i; render(); backdrop.hidden = false; document.body.style.overflow = "hidden"; }
+      function close() { current = null; backdrop.hidden = true; document.body.style.overflow = ""; }
+      function step(d) { current = (current + d + thumbs.length) % thumbs.length; render(); }
+      thumbs.forEach(function (t, i) { t.addEventListener("click", function () { open(i); }); });
+      backdrop.querySelector(".lightbox-close").addEventListener("click", close);
+      backdrop.querySelector(".lightbox-arrow-left").addEventListener("click", function () { step(-1); });
+      backdrop.querySelector(".lightbox-arrow-right").addEventListener("click", function () { step(1); });
+      backdrop.addEventListener("click", function (e) { if (e.target === backdrop) close(); });
+      document.addEventListener("keydown", function (e) {
+        if (current === null) return;
+        if (e.key === "Escape") close();
+        if (e.key === "ArrowLeft") step(-1);
+        if (e.key === "ArrowRight") step(1);
+      });
+    })();
+  </script>
+</body>
+</html>
